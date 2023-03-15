@@ -4,7 +4,7 @@
     - name: Print Fruit Name
       debug:
         msg: Fruit Name - {{ Item }}
-       loop:
+      loop:
           - Apple
           - Banana
           - Mango
